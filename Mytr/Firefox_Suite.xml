@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Firefox_Smoke" verbose="1">
+	<parameter name="browser" value="firefox" />
+	<parameter name="suitename" value="Firefox_Smoke" />
+	<test name="Test">
+		<classes>
+			<class name="mytr.cucumber.ex.testrunner.TestNGTestRunner" />
+			<!-- <class name="cucumber.example.testrunner.TestNGRunner" /> -->
+		</classes>
+	</test>
+</suite>
